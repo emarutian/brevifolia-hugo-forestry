@@ -30,6 +30,14 @@ fields:
 - type: file
   name: hero
   label: Hero Image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 pages:
 - content/blog-posts/Walking.md
 - content/blog-posts/geneology-of-morals.md
